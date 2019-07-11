@@ -19,6 +19,15 @@ header{
 nav{
     grid-area: navbar;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none
+
+    
+
+    
+
 }
 
 section{
@@ -34,4 +43,11 @@ aside{
 footer{
     grid-area: footer;
     background-color: purple;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
